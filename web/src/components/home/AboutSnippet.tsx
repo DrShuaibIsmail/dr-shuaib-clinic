@@ -12,9 +12,12 @@ export default function AboutSnippet() {
   const isRtl = locale === 'ar';
   const Arrow = isRtl ? ArrowLeft : ArrowRight;
 
-  const points = isRtl
-    ? ['تشخيص دقيق وعلاج مخصص', 'استخدام أحدث التقنيات الطبية', 'التزام تام بخصوصية المرضى', 'رعاية طبية تتبع المعايير العالمية']
-    : ['Precise diagnosis & tailored care', 'Latest medical technology', 'Commitment to patient privacy', 'Evidence-based healthcare'];
+  const points = [
+    t('point_1'),
+    t('point_2'),
+    t('point_3'),
+    t('point_4')
+  ];
 
   return (
     <section className="bg-white py-24 lg:py-32" id="about">
@@ -43,11 +46,7 @@ export default function AboutSnippet() {
               </span>
               
               <h2 className="text-4xl md:text-5xl font-extrabold text-surface-950 tracking-tight leading-tight mb-8">
-                {isRtl ? (
-                  <>خبرة طبية تستحق <span className="text-primary-600">ثقتكم</span></>
-                ) : (
-                  <>Medical Expertise Worth Your <span className="text-primary-600">Trust</span></>
-                )}
+                {t('h2_1')}<span className="text-primary-600">{t('h2_2')}</span>
               </h2>
 
               <p className="text-lg text-surface-500 leading-relaxed mb-10 max-w-xl mx-auto lg:mx-0">

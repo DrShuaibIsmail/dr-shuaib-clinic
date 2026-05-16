@@ -1,33 +1,34 @@
 'use client';
 
-import { useLocale } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import AnimatedSection from '@/components/ui/AnimatedSection';
 import { ShieldCheck, Award, Globe2, UserCheck } from 'lucide-react';
 
 export default function StatsSection() {
+  const t = useTranslations('stats');
   const locale = useLocale();
   const isRtl = locale === 'ar';
 
   const pillars = [
     {
       icon: Award,
-      title: isRtl ? 'احترافية مشهودة' : 'Certified Expertise',
-      desc: isRtl ? 'خبرة سريرية في أرقى الأقسام الباطنية' : 'Clinical experience in elite departments',
+      title: t('pillar_1_title'),
+      desc: t('pillar_1_desc'),
     },
     {
       icon: UserCheck,
-      title: isRtl ? 'ثقة المرضى' : 'Patient Trust',
-      desc: isRtl ? 'آلاف الحالات التي تمت رعايتها بنجاح' : 'Thousands of successfully treated cases',
+      title: t('pillar_2_title'),
+      desc: t('pillar_2_desc'),
     },
     {
       icon: Globe2,
-      title: isRtl ? 'تواصل عالمي' : 'Global Access',
-      desc: isRtl ? 'خدمة طبية متميزة بـ 3 لغات عالمية' : 'Premium care in 3 international languages',
+      title: t('pillar_3_title'),
+      desc: t('pillar_3_desc'),
     },
     {
       icon: ShieldCheck,
-      title: isRtl ? 'أمان وخصوصية' : 'Elite Security',
-      desc: isRtl ? 'حماية تامة لبيانات وخصوصية المرضى' : 'Full protection of patient data & privacy',
+      title: t('pillar_4_title'),
+      desc: t('pillar_4_desc'),
     }
   ];
 

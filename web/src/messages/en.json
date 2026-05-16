@@ -17,6 +17,8 @@
   },
   "hero": {
     "greeting": "Your Health, Our Utmost Priority",
+    "greeting_1": "Your Health,",
+    "greeting_2": "Our Priority.",
     "title": "Specialized Clinical Care & Expert Consultations",
     "subtitle": "Under the direct supervision of Dr. Shuaib Ali Hassan Ismail",
     "description": "An Internal Medicine physician with advanced clinical expertise in Gastroenterology, Hepatology, and Endoscopy. We provide precise diagnostics, authoritative medical consultations, and evidence-based treatment plans tailored to your unique health needs.",
@@ -38,12 +40,26 @@
     "specialization": "Sub-specialty",
     "specialization_value": "Gastroenterology & Hepatology",
     "languages": "Spoken Languages",
-    "consultations": "Successful Consultations"
+    "consultations": "Successful Consultations",
+    "pillar_1_title": "Certified Expertise",
+    "pillar_1_desc": "Clinical experience in elite departments",
+    "pillar_2_title": "Patient Trust",
+    "pillar_2_desc": "Thousands of successfully treated cases",
+    "pillar_3_title": "Global Access",
+    "pillar_3_desc": "Premium care in 3 international languages",
+    "pillar_4_title": "Elite Security",
+    "pillar_4_desc": "Full protection of patient data & privacy"
   },
   "about_snippet": {
     "title": "Professional Profile",
+    "h2_1": "Medical Expertise Worth Your ",
+    "h2_2": "Trust",
     "text": "Dr. Shuaib Ali Hassan Ismail possesses a robust academic background and extensive clinical experience in Internal Medicine. He is dedicated to the diagnosis and management of complex conditions within Gastroenterology and Hepatology. His medical approach places the patient at the center of care, emphasizing absolute transparency and customized therapeutic strategies.",
-    "read_more": "View Full Biography"
+    "read_more": "View Full Biography",
+    "point_1": "Precise diagnosis & tailored care",
+    "point_2": "Latest medical technology",
+    "point_3": "Commitment to patient privacy",
+    "point_4": "Evidence-based healthcare"
   },
   "specializations": {
     "title": "Advanced Clinical Care",

@@ -43,11 +43,7 @@ export default function HeroSection() {
               transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
             >
               <h1 className="text-5xl md:text-8xl font-black text-surface-950 tracking-tighter leading-[0.95] mb-8">
-                {isRtl ? (
-                  <>رعايتكم الصحية، <br/><span className="text-primary-600">هدفنا الأسمى.</span></>
-                ) : (
-                  <>Your Health, <br/><span className="text-primary-600">Our Priority.</span></>
-                )}
+                {t('greeting_1')} <br/><span className="text-primary-600">{t('greeting_2')}</span>
               </h1>
               
               <p className="text-lg md:text-2xl text-surface-600 max-w-xl mb-12 leading-relaxed font-medium">

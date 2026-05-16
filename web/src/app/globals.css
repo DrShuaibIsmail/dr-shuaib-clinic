@@ -27,22 +27,18 @@
   --color-surface-50: oklch(1 0 0);
   --color-surface-100: oklch(0.98 0.002 240);
   --color-surface-200: oklch(0.94 0.004 240);
-  --color-surface-300: oklch(0.80 0.008 240); /* Darker Gray */
-  --color-surface-400: oklch(0.60 0.01 240);  /* Darker Gray */
-  --color-surface-500: oklch(0.40 0.02 240);  /* Solid Secondary */
-  --color-surface-600: oklch(0.25 0.02 240);  /* Deep Muted */
+  --color-surface-300: oklch(0.80 0.008 240);
+  --color-surface-400: oklch(0.60 0.01 240);
+  --color-surface-500: oklch(0.40 0.02 240);
+  --color-surface-600: oklch(0.25 0.02 240);
   --color-surface-700: oklch(0.18 0.02 240);
-  --color-surface-800: oklch(0.12 0.02 245); /* High-contrast Body */
+  --color-surface-800: oklch(0.12 0.02 245);
   --color-surface-900: oklch(0.08 0.02 250);
-  --color-surface-950: oklch(0.04 0.02 250); /* Deep Headlines */
+  --color-surface-950: oklch(0.04 0.02 250);
 
   /* ── Typography — Modern Medical ── */
-  --font-sans: 'Inter', 'Cairo', system-ui, -apple-system, sans-serif;
-  --font-display: 'Inter', 'Cairo', sans-serif;
-
-  /* ── Spacing ── */
-  --spacing-fluid-xl: clamp(4rem, 10vw, 8rem);
-  --spacing-fluid-2xl: clamp(8rem, 15vw, 12rem);
+  --font-sans: var(--font-inter), var(--font-cairo), system-ui, -apple-system, sans-serif;
+  --font-display: var(--font-inter), var(--font-cairo), sans-serif;
 
   /* ── Radius — Refined ── */
   --radius-xl: 1rem;
@@ -53,7 +49,6 @@
   --shadow-soft: 0 1px 2px oklch(0 0 0 / 0.06);
   --shadow-medium: 0 4px 12px -2px oklch(0 0 0 / 0.1);
   --shadow-elevated: 0 20px 40px -12px oklch(0 0 0 / 0.15);
-  --shadow-glow-primary: none;
 }
 
 /* ── Global Styles ── */
@@ -68,23 +63,51 @@ body {
   color: var(--color-surface-800);
   background-color: var(--color-surface-50);
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 [dir="rtl"] body {
-  font-family: 'Cairo', 'Inter', sans-serif;
+  font-family: var(--font-cairo), sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-display);
-  font-weight: 800;
+  font-weight: 900;
   line-height: 1.1;
   color: var(--color-surface-950);
-  letter-spacing: -0.02em;
+  letter-spacing: -0.03em;
 }
 
-p {
-  max-width: 65ch;
-  text-wrap: pretty;
+/* ── Premium Utilities ── */
+.premium-gradient {
+  background: radial-gradient(circle at top right, oklch(0.98 0.02 240), transparent 40%),
+              radial-gradient(circle at bottom left, oklch(0.98 0.02 200), transparent 40%),
+              var(--color-surface-50);
+}
+
+.glass-morphism {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, var(--color-primary-600), var(--color-primary-800));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ── Custom Scrollbar ── */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-surface-100);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-surface-300);
+  border-radius: 10px;
 }
 
 /* ── Utility: Medical Card ── */
@@ -98,19 +121,4 @@ p {
 .medical-card:hover {
   border-color: var(--color-primary-200);
   box-shadow: var(--shadow-elevated);
-  transform: translateY(-4px);
-}
-
-/* ── Pattern Removal ── */
-.dot-pattern, .line-pattern {
-  display: none;
-}
-
-/* ── Scrollbar Hide (for horizontal carousels) ── */
-.no-scrollbar::-webkit-scrollbar {
-  display: none;
-}
-.no-scrollbar {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
 }

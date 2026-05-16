@@ -1,3 +1,4 @@
+import { Inter, Cairo } from 'next/font/google';
 import type { Metadata } from 'next';
 import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { getTranslations, setRequestLocale, getMessages } from 'next-intl/server';
@@ -5,6 +6,9 @@ import { notFound } from 'next/navigation';
 import { routing, isRtl } from '@/i18n/routing';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+
+const inter = Inter({ subsets: ['latin', 'cyrillic'], variable: '--font-inter' });
+const cairo = Cairo({ subsets: ['arabic'], variable: '--font-cairo' });
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -80,7 +84,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} dir={rtl ? 'rtl' : 'ltr'} className="h-full">
-      <body className="min-h-full flex flex-col antialiased">
+      <body className={`${inter.variable} ${cairo.variable} min-h-full flex flex-col antialiased font-sans`}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />
           <main className="flex-1">{children}</main>
