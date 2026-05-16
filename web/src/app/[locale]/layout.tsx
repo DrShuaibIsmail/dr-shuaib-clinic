@@ -26,7 +26,14 @@ export async function generateMetadata({
       description: t('description'),
       type: 'website',
       locale: locale === 'ar' ? 'ar_SA' : locale === 'ru' ? 'ru_RU' : 'en_US',
-      images: [{ url: '/images/doctor.jpeg', width: 800, height: 1000 }],
+      images: [
+        {
+          url: 'https://drshuaib.netlify.app/images/doctor.jpeg',
+          width: 1200,
+          height: 630,
+          alt: t('title'),
+        },
+      ],
     },
     twitter: {
       card: 'summary_large_image',
