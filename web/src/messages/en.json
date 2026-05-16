@@ -26,7 +26,11 @@
     "quick_access": "Direct Access",
     "live_status": "Available for Consultation",
     "online_consulting": "Telemedicine Services",
-    "secure_badge": "Strict Medical Privacy"
+    "secure_badge": "Strict Medical Privacy",
+    "security_label": "Security",
+    "service_label": "Service",
+    "trust_score": "Trust Score",
+    "positive_rating": "99.9% Positive"
   },
   "stats": {
     "experience": "Years of Clinical Practice",

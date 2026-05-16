@@ -26,7 +26,11 @@
     "quick_access": "Прямая связь",
     "live_status": "Доступен для консультации",
     "online_consulting": "Телемедицина",
-    "secure_badge": "Строгая врачебная тайна"
+    "secure_badge": "Строгая врачебная тайна",
+    "security_label": "Безопасность",
+    "service_label": "Услуги",
+    "trust_score": "Рейтинг доверия",
+    "positive_rating": "99.9% Положительно"
   },
   "stats": {
     "experience": "Лет клинической практики",

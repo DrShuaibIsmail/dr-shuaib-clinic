@@ -26,7 +26,11 @@
     "quick_access": "تواصل مباشر",
     "live_status": "متاح للاستشارة",
     "online_consulting": "استشارات طبية عن بُعد",
-    "secure_badge": "أقصى درجات الخصوصية"
+    "secure_badge": "أقصى درجات الخصوصية",
+    "security_label": "أمان تام",
+    "service_label": "خدماتنا",
+    "trust_score": "مؤشر الثقة",
+    "positive_rating": "99.9% تقييم إيجابي"
   },
   "stats": {
     "experience": "سنوات من الخبرة السريرية",
