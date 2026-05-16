@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "title": "Dr. Shuaib Ali Hassan Ismail | Premium Medical Consultations",
+    "description": "Comprehensive medical care and specialized consultations with Dr. Shuaib Ali Hassan Ismail, expert in Internal Medicine, Gastroenterology, Hepatology, and Endoscopy."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "Physician Profile",
+    "services": "Clinical Services",
+    "book": "Request Appointment",
+    "contact": "Contact Us",
+    "faq": "Patient FAQ",
+    "patient_portal": "Patient Portal",
+    "language": "Language",
+    "dr_name": "Dr. Shuaib Ismail",
+    "tagline": "Committed to Your Care"
+  },
+  "hero": {
+    "greeting": "Your Health, Our Utmost Priority",
+    "title": "Specialized Clinical Care & Expert Consultations",
+    "subtitle": "Under the direct supervision of Dr. Shuaib Ali Hassan Ismail",
+    "description": "An Internal Medicine physician with advanced clinical expertise in Gastroenterology, Hepatology, and Endoscopy. We provide precise diagnostics, authoritative medical consultations, and evidence-based treatment plans tailored to your unique health needs.",
+    "cta_book": "Schedule Your Consultation",
+    "cta_learn": "Explore Our Services",
+    "hero_badge": "World-Class Medical Standards",
+    "quick_access": "Direct Access",
+    "live_status": "Available for Consultation",
+    "online_consulting": "Telemedicine Services",
+    "secure_badge": "Strict Medical Privacy"
+  },
+  "stats": {
+    "experience": "Years of Clinical Practice",
+    "patients": "Treated Cases",
+    "specialization": "Sub-specialty",
+    "specialization_value": "Gastroenterology & Hepatology",
+    "languages": "Spoken Languages",
+    "consultations": "Successful Consultations"
+  },
+  "about_snippet": {
+    "title": "Professional Profile",
+    "text": "Dr. Shuaib Ali Hassan Ismail possesses a robust academic background and extensive clinical experience in Internal Medicine. He is dedicated to the diagnosis and management of complex conditions within Gastroenterology and Hepatology. His medical approach places the patient at the center of care, emphasizing absolute transparency and customized therapeutic strategies.",
+    "read_more": "View Full Biography"
+  },
+  "specializations": {
+    "title": "Advanced Clinical Care",
+    "subtitle": "Specialized disciplines addressing your comprehensive health requirements",
+    "gastro": {
+      "title": "Gastroenterology",
+      "description": "Comprehensive evaluation and precise diagnosis of gastric, intestinal, IBS, and IBD disorders, providing state-of-the-art therapeutic protocols."
+    },
+    "liver": {
+      "title": "Hepatology & Biliary Tract",
+      "description": "Meticulous monitoring of hepatic functions, comprehensive management of viral hepatitis, liver cirrhosis, and complex metabolic liver diseases."
+    },
+    "endoscopy": {
+      "title": "Diagnostic Endoscopy",
+      "description": "Expert clinical guidance and evaluation for cases requiring upper and lower gastrointestinal endoscopic procedures to ensure optimal outcomes."
+    },
+    "general": {
+      "title": "Comprehensive Internal Medicine",
+      "description": "Expert management of complex medical conditions, systemic disease diagnosis, and navigating patients toward optimal healthcare pathways."
+    }
+  },
+  "how_it_works": {
+    "title": "Your Pathway to Healing",
+    "subtitle": "A streamlined process to secure your medical consultation",
+    "step1": {
+      "title": "Initial Registration",
+      "description": "Complete our rapid booking form and securely attach any previous medical reports or laboratory results."
+    },
+    "step2": {
+      "title": "Schedule Selection",
+      "description": "Select an appointment time that accommodates your schedule, subject to immediate clinic confirmation."
+    },
+    "step3": {
+      "title": "Medical Consultation",
+      "description": "Connect directly with the physician in a secure environment to receive a thorough clinical evaluation and a clear therapeutic plan."
+    }
+  },
+  "availability": {
+    "available": "The Clinic is Open",
+    "next_slot": "Earliest Available Slot",
+    "book_now": "Confirm Booking"
+  },
+  "cta": {
+    "title": "Do not compromise on your health. Begin your treatment journey with confidence.",
+    "subtitle": "Receive an accurate, evidence-based medical consultation. We are here to listen, diagnose, and provide the exceptional care you deserve.",
+    "book": "Schedule Consultation",
+    "contact_us": "Medical Support Team",
+    "cta_badge": "Excellence-Driven Care",
+    "support_247": "Continuous Patient Monitoring",
+    "certified_expert": "Internationally Certified Expertise"
+  },
+  "footer": {
+    "description": "The official consultation platform of Dr. Shuaib Ali Hassan Ismail. We are committed to delivering transparent, secure medical care while maintaining absolute patient confidentiality.",
+    "quick_links": "Quick Access",
+    "contact_info": "Contact Information",
+    "follow_us": "Stay Connected",
+    "rights": "All Rights Reserved",
+    "privacy": "Privacy & Data Security Policy",
+    "terms": "Terms & Conditions",
+    "phone": "Direct Line",
+    "email": "Email Address",
+    "address": "Clinic Location",
+    "specialist_title": "Internal Medicine, Gastroenterology & Hepatology Specialist",
+    "privacy_verified": "Strict Patient Confidentiality",
+    "secure_system": "Secure Digital Infrastructure",
+    "location_value": "Moscow, Russian Federation"
+  },
+  "testimonials": {
+    "title": "Patient Experiences",
+    "subtitle": "Testimonials reflecting our commitment to exceptional care and meticulous follow-up.",
+    "trust": "Your Trust is Our Greatest Asset"
+  }
+}
