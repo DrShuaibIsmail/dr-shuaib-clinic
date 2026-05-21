@@ -32,7 +32,7 @@ export async function askAi(messages: Message[]): Promise<string> {
 
   // Try Gemini First
   try {
-    const model = gemini.getGenerativeModel({ model: "gemini-1.5-flash" });
+    const model = gemini.getGenerativeModel({ model: "gemini-2.5-flash" });
     const chat = model.startChat({
       history: [
         { role: "user", parts: [{ text: "SYSTEM INSTRUCTION: " + SYSTEM_PROMPT }] },
