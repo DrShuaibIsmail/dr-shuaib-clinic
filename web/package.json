@@ -12,11 +12,14 @@
     "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
     "bcryptjs": "^2.4.3",
     "clsx": "^2.1.1",
     "dotenv": "^17.4.2",
     "drizzle-orm": "^0.44.0",
     "framer-motion": "^12.38.0",
+    "grammy": "^1.43.0",
+    "groq-sdk": "^1.2.0",
     "jsonwebtoken": "^9.0.2",
     "lucide-react": "^1.16.0",
     "next": "16.2.6",

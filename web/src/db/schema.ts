@@ -52,3 +52,13 @@ export const doctorSettings = pgTable('doctor_settings', {
   value: text('value').notNull(), // JSON string
   updatedAt: timestamp('updated_at').defaultNow().notNull(),
 });
+
+// ── Bot Chat History (ذاكرة البوت) ──
+export const chatHistory = pgTable('chat_history', {
+  id: uuid('id').defaultRandom().primaryKey(),
+  platform: varchar('platform', { length: 20 }).notNull(), // 'telegram' | 'whatsapp'
+  chatId: varchar('chat_id', { length: 50 }).notNull(), // User's ID from the platform
+  role: varchar('role', { length: 20 }).notNull(), // 'user' | 'assistant'
+  content: text('content').notNull(),
+  createdAt: timestamp('created_at').defaultNow().notNull(),
+});
